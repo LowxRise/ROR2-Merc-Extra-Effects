@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+MercExtraEffects/bin/
+MercExtraEffects/obj/
+
+# IDE and local machine files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Logs and packages
+*.log
+*.nupkg

@@ -1,0 +1,24 @@
+<Project>
+  <PropertyGroup>
+    <InnerProject>MercExtraEffects\MercExtraEffects.csproj</InnerProject>
+    <ForwardProperties Condition="'$(Configuration)' != ''">Configuration=$(Configuration)</ForwardProperties>
+    <ForwardProperties Condition="'$(Platform)' != '' And '$(ForwardProperties)' != ''">$(ForwardProperties);Platform=$(Platform)</ForwardProperties>
+    <ForwardProperties Condition="'$(Platform)' != '' And '$(ForwardProperties)' == ''">Platform=$(Platform)</ForwardProperties>
+  </PropertyGroup>
+
+  <Target Name="Restore">
+    <MSBuild Projects="$(InnerProject)" Targets="Restore" Properties="$(ForwardProperties)" />
+  </Target>
+
+  <Target Name="Build">
+    <MSBuild Projects="$(InnerProject)" Targets="Build" Properties="$(ForwardProperties)" />
+  </Target>
+
+  <Target Name="Clean">
+    <MSBuild Projects="$(InnerProject)" Targets="Clean" Properties="$(ForwardProperties)" />
+  </Target>
+
+  <Target Name="Rebuild">
+    <MSBuild Projects="$(InnerProject)" Targets="Rebuild" Properties="$(ForwardProperties)" />
+  </Target>
+</Project>
