@@ -2,10 +2,15 @@
 
 Adds extra effects to Mercenary skills. M2 heals you for a percentage (configurable) of the damage you deal. "Eviscerate" gives you a burst of barrier (configurable) based on your max health, default utility "Blinding Assault" cooldown is decreased from 8s to 5s (configurable). All these values (and others) can be easily changed from inside the game via [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options/).
 
+## Preview
+
+![Merc Extra Effects preview](Content/Mercgif.gif)
+
 ## Features
 
 - Both secondary skills (M2) (Uppercut / Whirlwind) when used heal for 15% (default value & configurable), meaning if you deal 1000 damage you heal for 150 HP.
 - Eviscerate gives a burst of barrier equal to 15% (default value & configurable) of your max health.
+- Eviscerate does not touch allies.
 - Blinding Assault (Default Utility) cooldown is decreased from 8s (Vanilla) to 5s (default value & configurable).
 - Whirlwind, Uppercut and Eviscerate's damage and cooldown can be changed.
 - [MercenaryTweaks](https://thunderstore.io/package/codedly/MercenaryTweaks/) Merc's 3rd M1 is unaffected by attack speed, allowing you to take attack speed items with no worries (breaks at 18.0 attack speed); Whirlwind and Rising Thunder are completely unaffected by attack speed, keeping their movement utility and combo timing consistent throughout the run.
