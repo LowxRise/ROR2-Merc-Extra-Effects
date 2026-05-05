@@ -4,7 +4,7 @@ Adds extra effects to Mercenary skills. M2 heals you for a percentage (configura
 
 ## Preview
 
-![Merc Extra Effects preview](Content/Mercgif.gif)
+![Merc Extra Effects preview](https://raw.githubusercontent.com/LowxRise/ROR2-Merc-Extra-Effects/refs/heads/main/ThunderStore/Content/Mercgif.gif)
 
 ## Features
 
