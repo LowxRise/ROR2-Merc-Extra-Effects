@@ -7,8 +7,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Remove="Assets\MercExtraEffectIcon128.png" />
-		<EmbeddedResource Include="Assets\MercExtraEffectIcon128.png" />
+		<EmbeddedResource Include="..\ThunderStore\icon.png">
+			<LogicalName>ExamplePlugin.Assets.MercExtraEffectIcon128.png</LogicalName>
+		</EmbeddedResource>
 		<Compile Remove="Decompiled Shiet\**" />
 		<Compile Remove="other mods\**" />
 		<EmbeddedResource Remove="Decompiled Shiet\**" />
@@ -38,6 +39,7 @@
 	  </Reference> -->
 	  <Reference Include="RiskOfOptions">
 	    <HintPath>$(AppData)\r2modmanPlus-local\RiskOfRain2\profiles\Singleplayer\BepInEx\plugins\Rune580-Risk_Of_Options\RiskOfOptions\RiskOfOptions.dll</HintPath>
+	    <Private>false</Private>
 	  </Reference>
 	  <!-- <Reference Include="RoR2BepInExPack">
 	    <HintPath>C:\Users\aboug\AppData\Roaming\r2modmanPlus-local\RiskOfRain2\profiles\dev\BepInEx\plugins\RiskofThunder-RoR2BepInExPack\RoR2BepInExPack\RoR2BepInExPack.dll</HintPath>

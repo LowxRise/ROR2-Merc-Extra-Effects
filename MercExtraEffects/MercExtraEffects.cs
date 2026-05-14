@@ -53,7 +53,7 @@ namespace ExamplePlugin
     {
         public const string PluginGUID = "com.fafnir62.mercenary_extra_effects";
         public const string PluginName = "Mercenary Extra Effects";
-        public const string PluginVersion = "1.2.1";
+        public const string PluginVersion = "1.3.3";
 
         private static BodyIndex mercBodyIndex = BodyIndex.None;
 
